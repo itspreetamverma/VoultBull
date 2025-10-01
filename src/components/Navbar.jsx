@@ -6,7 +6,7 @@ import Products from "../pages/Products";
 import Distributer from "../pages/Distributer";
 import Contact from "../pages/Contact";
 import { FaBars, FaTimes } from "react-icons/fa";
-import Home from "../Pages/Home";
+import Home from "../pages/Home";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
