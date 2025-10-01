@@ -87,9 +87,6 @@ const Home = () => {
           className="relative w-full flex flex-col items-center justify-center gap-4 py-12 px-6 text-white lg:bg-fixed bg-cover bg-center"
           style={{ backgroundImage: "url('/images/why-Voltbull.jpg')" }}
         >
-          {/* Smoke Layer */}
-          {/* <div className="absolute inset-0 bg-black/60"></div>
-          <div className="absolute inset-0 bg-gradient-to-b from-black/10 to-black/80"></div> */}
 
           {/* Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-b from-[#020202A8] to-[#0C1115]"></div>
@@ -107,11 +104,6 @@ const Home = () => {
           </div>
         </div>
         <div className="flex items-center justify-center py-4 lg:py-24 lg:px-16">
-          {/* <img
-            src="/images/Voltbullbattires-prod.png"
-            alt="Home Battery"
-            className="max-w-full h-auto lg:h-[450px]"
-          /> */}
           <BatteryHotspot />
         </div>
         <div className="grid grid-cols-[repeat(auto-fit,minmax(250px,1fr))] items-center justify-center bg-[#045dc4] text-white w-full py-6 px-2 xl:px-28 gap-4">
